@@ -112,7 +112,7 @@ set visualbell
 set t_vb=
  
 " Enable use of the mouse for all modes
-set mouse=a
+set mouse=r
  
 " Set the command window height to 2 lines, to avoid many cases of having to
 " "press <Enter> to continue"
@@ -150,12 +150,15 @@ set expandtab
 "
 " Useful mappings
  
-" Map Y to act like D and C, i.e. to yank until EOL, rather than act as yy,
-" which is the default
-map Y y$
- 
 " Map <C-L> (redraw screen) to also turn off search highlighting until the
 " next search
 nnoremap <C-L> :nohl<CR><C-L>
  
 "------------------------------------------------------------
+
+" xclip hotkeys.
+" Y to yank to clipboard
+map Y :w !xclip -selection clipboard<CR><CR>
+" P to paste from clipboard
+map P :r!xclip -o -selection clipboard<CR>
+
