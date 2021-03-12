@@ -4,3 +4,9 @@
 [submodule "vim/.vim/pack/plugins/start/vim-fugitive"]
 	path = vim/.vim/pack/plugins/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "vim/.vim/pack/plugins/start/vim-airline"]
+	path = vim/.vim/pack/plugins/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "vim/.vim/pack/plugins/start/tagbar"]
+	path = vim/.vim/pack/plugins/start/tagbar
+	url = https://github.com/preservim/tagbar.git
