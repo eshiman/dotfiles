@@ -159,3 +159,6 @@ map Y y$
 nnoremap <C-L> :nohl<CR><C-L>
  
 "------------------------------------------------------------
+" https://superuser.com/questions/279651/how-can-i-make-vim-show-the-current-class-and-method-im-editing
+let g:airline#extensions#tagbar#flags = 'f'  " show full tag hierarchy
+nmap <F8> :TagbarToggle<CR>
