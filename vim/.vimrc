@@ -162,3 +162,8 @@ nnoremap <C-L> :nohl<CR><C-L>
 " https://superuser.com/questions/279651/how-can-i-make-vim-show-the-current-class-and-method-im-editing
 let g:airline#extensions#tagbar#flags = 'f'  " show full tag hierarchy
 nmap <F8> :TagbarToggle<CR>
+
+" https://vim.fandom.com/wiki/Great_wildmode/wildmenu_and_console_mouse#:~:text=%22set%20wildmenu%22%20enables%20a%20menu,to%20the%20longest%20common%20command.
+" https://vi.stackexchange.com/questions/656/bash-like-partial-tab-complete-for-filenames-in-vim
+" set wildmenu
+set wildmode=list:longest,full
