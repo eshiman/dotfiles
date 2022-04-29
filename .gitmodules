@@ -10,3 +10,6 @@
 [submodule "vim/.vim/pack/plugins/start/tagbar"]
 	path = vim/.vim/pack/plugins/start/tagbar
 	url = https://github.com/preservim/tagbar.git
+[submodule "vim/.vim/pack/plugins/start/markdown-preview.nvim"]
+	path = vim/.vim/pack/plugins/start/markdown-preview.nvim
+	url = https://github.com/iamcco/markdown-preview.nvim.git

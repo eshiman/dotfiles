@@ -167,3 +167,8 @@ nmap <F8> :TagbarToggle<CR>
 " https://vi.stackexchange.com/questions/656/bash-like-partial-tab-complete-for-filenames-in-vim
 " set wildmenu
 set wildmode=list:longest,full
+let g:mkdp_port = 8080
+function! g:EchoUrl(url)
+    :echo a:url
+endfunction
+let g:mkdp_browserfunc = 'g:EchoUrl'
