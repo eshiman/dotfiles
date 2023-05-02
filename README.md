@@ -9,5 +9,7 @@ Instructions:
 To add submodule:
 1) Navigate to vim/.vim/pack/plugins/start
 2) git submodule add [clone url]
+3) Module should be automatically loaded into vim, on next open
 
 https://alexpearce.me/2016/02/managing-dotfiles-with-stow/
+https://dev.to/iggredible/how-to-use-vim-packages-3gil
