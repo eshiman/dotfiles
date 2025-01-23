@@ -13,3 +13,7 @@ To add submodule:
 
 https://alexpearce.me/2016/02/managing-dotfiles-with-stow/
 https://dev.to/iggredible/how-to-use-vim-packages-3gil
+
+## submodule-specific instructions:
+to get tagbar working, install exuberant ctags
+`sudo apt install exuberant-ctags`
